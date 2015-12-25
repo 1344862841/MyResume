@@ -23,6 +23,7 @@ ul {
     top: 0;
     margin-left: -320px;
     -webkit-transform-origin: top;
+    transform-origin: top;
 }
 
 .slide li {
@@ -86,6 +87,7 @@ ul {
     width: 300px;
     height: 200px;
     -webkit-transition: 1s;
+    transition: 1s;
 }
 
 #a2 p:nth-child(2) {
@@ -118,10 +120,12 @@ ul {
 
 .a3 p:nth-child(odd) {
     -webkit-transform: translate(600px, 0);
+    transform: translate(600px, 0);
 }
 
 .a3 p:nth-child(even) {
     -webkit-transform: translate(-600px, 0);
+    transform: translate(-600px, 0);
 }
 
 #a3 h5 {
@@ -130,7 +134,9 @@ ul {
 
 #a3 p {
     -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
     -webkit-transition: 1s;
+    transition: 1s;
 }
 
 .a4 {
@@ -160,5 +166,7 @@ ul {
 
 #a4 div {
     -webkit-transform: rotateY(720deg);
+    transform: rotateY(720deg);
     -webkit-transition: 1s;
+    transition: 1s;
 }
